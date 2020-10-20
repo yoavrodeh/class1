@@ -278,7 +278,7 @@ We cannot use `v1.x` or `v1.y` here!
 
 
 ---
-## Exercise
+### Exercise
 
 Write a `Student` class, having the following methods:
 ```java code-noblend
