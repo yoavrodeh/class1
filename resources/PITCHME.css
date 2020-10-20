@@ -1,0 +1,64 @@
+.hljs-comment{
+    font-style: italic !important;
+}
+
+#boxed-text-box {
+	font-size: 120% !important
+}
+
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
+
+.reveal strong {
+	font-family: "Open Sans Medium", "sans-serif";
+}
+
+.reveal em {
+	font-family: "Open Sans", "sans-serif";
+}
+
+/*-------------------------------------- */
+
+
+.reveal pre code { overflow:auto }
+
+
+code {
+	color:purple;
+}
+
+.hljs {
+	background: black;
+}
+
+.hljs-number, .hljs-string {
+	color: #a2fca2;
+}
+
+.hljs-comment {
+    color: #bbb;
+}
+
+span .hljs-symbol {
+	color: #ffa080;
+}
+
+
+span .hljs-meta {
+    color: #a0a0a0;
+}
+
+span .hljs-params {
+	color: #FCA2EB;
+}
+
+.reveal blockquote {
+	background: rgba(255,0,0, 0.2);
+}
+
+#boxed-text-box {
+	background: rgba(255,0,0, 0.2);	
+}
+

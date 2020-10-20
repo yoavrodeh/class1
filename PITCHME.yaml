@@ -1,0 +1,33 @@
+theme : theme
+theme-code     : [ "Source Code Pro", "120", "100" ]
+theme-margins    : [ "0", "15px" ]
+
+theme-background : [ "radial-gradient(white, rgb(247, 242, 211))" ]
+theme-headline : [ "Prompt", "Brown", "uppercase", "Brown", "100", "100", "15" ]
+theme-byline   : [ "Montserrat", "Brown", "uppercase", "Brown", "100", "100", "15" ]
+theme-text     : [ "Open Sans", "Black", "none", "Black", "100", "100", "15" ]
+theme-links    : [ "#5289F7", "#5254F7" ]
+theme-controls : [ "#484848" ]
+theme-override : class1/resources/PITCHME.css
+highlight: agate
+
+
+# theme-background : [ "white" ]
+# theme-headline : [ "Prompt", "black", "uppercase", "black", "100", "100", "15" ]
+# theme-byline   : [ "Montserrat", "black", "uppercase", "black", "100", "100", "15" ]
+# theme-text     : [ "Open Sans", "Black", "none", "Black", "100", "100", "15" ]
+# theme-links    : [ "black", "black" ]
+# theme-controls : [ "grey" ]
+# theme-override : class1/resources/PITCHMEprint.css
+# highlight: plain
+
+
+
+# Behavior
+published : true
+print-fragments : true
+
+# Plugins
+# charts : true
+mathjax : TeX-AMS_HTML-full
+

@@ -1,0 +1,42 @@
+.hljs {
+}
+
+.hljs-comment{
+    font-style: italic !important;
+}
+
+#boxed-text-box {
+	font-size: 120% !important;
+	border: grey;
+	border-style: solid;
+	box-shadow: 1;
+}
+
+.reveal blockquote {
+	border: grey;
+	border-style: solid;
+	box-shadow: 1;
+}
+
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
+
+
+/*-------------------------- */
+
+code {
+	color:black;
+}
+
+span .hljs-comment {
+	color:gray;
+}
+
+.reveal pre {
+	border:grey;
+	border-style:solid;
+	box-shadow: 1;
+}
+
