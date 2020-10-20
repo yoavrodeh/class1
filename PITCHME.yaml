@@ -8,7 +8,7 @@ theme-byline   : [ "Montserrat", "Brown", "uppercase", "Brown", "100", "100", "1
 theme-text     : [ "Open Sans", "Black", "none", "Black", "100", "100", "15" ]
 theme-links    : [ "#5289F7", "#5254F7" ]
 theme-controls : [ "#484848" ]
-theme-override : class1/resources/PITCHME.css
+theme-override : resources/PITCHME.css
 highlight: agate
 
 
@@ -18,7 +18,7 @@ highlight: agate
 # theme-text     : [ "Open Sans", "Black", "none", "Black", "100", "100", "15" ]
 # theme-links    : [ "black", "black" ]
 # theme-controls : [ "grey" ]
-# theme-override : class1/resources/PITCHMEprint.css
+# theme-override : resources/PITCHMEprint.css
 # highlight: plain
 
 
