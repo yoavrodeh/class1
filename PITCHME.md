@@ -364,7 +364,7 @@ Java does it for us!
 
 
 ---
-## Exercise
+### Exercise
 Define a `Matrix` class, which is a 2x2 matrix which has two private variables, and a few methods:
 ```java code-noblend
 private Vector v1, v2; 
