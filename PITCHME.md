@@ -54,7 +54,7 @@
 
 ---
 Just like C:
-@code[java code-max code-noblend](class1/src/Basic.java)
+@code[java code-max code-noblend](src/Basic.java)
 Well, almost..
 
 
@@ -116,7 +116,7 @@ Use it when you can! it is shorter and clearer.
 
 
 ---
-@code[java code-max code-noblend](class1/src/Arrays.java)
+@code[java code-max code-noblend](src/Arrays.java)
 @[4-7](Different ways to instantiate an array. Java sets a default value of 0.)
 @[9-14](Pretty much like C.)
 @[16-18](This is new.)
@@ -151,7 +151,7 @@ Strings are not just char arrays
 
 
 ---
-@code[java code-max code-noblend](class1/src/StringExample.java)
+@code[java code-max code-noblend](src/StringExample.java)
 @[1-11](the `+` operator works nicely on strings)
 @[13-16](some common string **methods**)
 @[18-29](`split` is useful, but complex)
@@ -171,7 +171,7 @@ Strings are not just char arrays
   
 ---
 A class is like a struct typedef:
-@code[java code-max code-noblend](class1/src/Class1.java)
+@code[java code-max code-noblend](src/Class1.java)
 + `x` and `y` are **fields** of `Class1`.
 + We will discuss what `public` is soon.
 
@@ -179,7 +179,7 @@ A class is like a struct typedef:
 
 
 ---
-@code[java code-max code-noblend](class1/src/MainForClass1.java)
+@code[java code-max code-noblend](src/MainForClass1.java)
 
 1. Use `new` to create a new **instance** of a class (an **object**). It returns a reference to it.
 1. There is only . which acts like -> in C. 
@@ -192,7 +192,7 @@ functions that are part of the class, and when called by an instance of the clas
 
 
 ---
-@code[java code-max code-noblend](class1/src/Class2.java)
+@code[java code-max code-noblend](src/Class2.java)
 
 This class has two methods. Instead of using the variables of an object directly, we can call its methods.
 
@@ -201,20 +201,20 @@ This class has two methods. Instead of using the variables of an object directly
 
 
 ---
-@code[java code-max code-noblend](class1/src/MainForClass2.java)
+@code[java code-max code-noblend](src/MainForClass2.java)
 @[3-14](The methods are called on the instance `a`, and so accesses its `x` and `y`)
 @[16-22](The result)
 
 
 
 ---
-@code[java code-max code-noblend](class1/src/Class3.java)
+@code[java code-max code-noblend](src/Class3.java)
 It is similar to the previous class, except it has a **constructor**. This is a special method, that can be called automatically when creating a new instance.
 
 
 
 ---
-@code[java code-max code-noblend](class1/src/MainForClass3.java)
+@code[java code-max code-noblend](src/MainForClass3.java)
 + It is much simpler to create new instances using a constructor.
 + Again, notice, how `sum()` accesses the fields of the instance it is invoked on.
 
@@ -257,7 +257,7 @@ public YourClass() {
   
 
 ---
-@code[java code-max code-noblend](class1/src/Vector.java)
+@code[java code-max code-noblend](src/Vector.java)
 @[1-12](accessing private variables through public methods lets us protect them)
 @[14-16](This one is important)
 @[18-25](An argument to a method can be a `Vector`. We can access its private fields even though it belongs to another object!)
@@ -265,7 +265,7 @@ public YourClass() {
 
 
 ---
-@code[java code-max code-noblend](class1/src/MainForVector.java)
+@code[java code-max code-noblend](src/MainForVector.java)
 We cannot use `v1.x` or `v1.y` here!
 
 
@@ -295,7 +295,7 @@ A student will only remember the **number** of courses it has, and so `addCourse
 
 
 ---
-@code[java code-max code-noblend](class1/src/MainForStudent.java)
+@code[java code-max code-noblend](src/MainForStudent.java)
  
 @css[fragment](*and the solution:*)
 
@@ -303,7 +303,7 @@ A student will only remember the **number** of courses it has, and so `addCourse
 
 
 ---
-@code[java code-max code-noblend](class1/src/Student.java)
+@code[java code-max code-noblend](src/Student.java)
 @[1-9]
 @[11-21]
 
@@ -318,11 +318,11 @@ The `this` keyword has a few uses:
 
 
 ---
-@code[java code-max code-noblend](class1/src/Vector2.java)
+@code[java code-max code-noblend](src/Vector2.java)
 
 
 ---
-@code[java code-max code-noblend](class1/src/MainForStringStack.java)
+@code[java code-max code-noblend](src/MainForStringStack.java)
 
 `StringStack` is a good example for OOP. It is an object that has a **state** that can change. 
 
@@ -332,7 +332,7 @@ Here we see how to use it.
 
 
 ---
-@code[java code-max code-noblend](class1/src/StringStack.java)
+@code[java code-max code-noblend](src/StringStack.java)
 @[1-11](`current` holds index of the first **empty** slot.)
 @[13-24](Note the use of the `null` keyword.)
 
